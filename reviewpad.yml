@@ -98,7 +98,7 @@ workflows:
       # - if: $isDraft() == false && $approvalsCount() < 1
       #  then: $addLabel("waiting-for-review")
 
-  # This workflow labels pull requests based on the pull request change type.
+# This workflow labels pull requests based on the pull request change type.
   # This helps pick pull requests based on their change type.
   - name: change-type-labelling
     description: Label pull requests based on the type of changes
